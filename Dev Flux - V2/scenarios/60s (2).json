@@ -1,0 +1,14 @@
+{
+  "version": "1.0",
+  "description": "60s demo: two concurrent bursts with different styles (UDP Flood + Password Spray, then Slowloris + Suspicious IP).",
+  "duration_seconds": 60,
+  "phases": [
+    { "start": 0,  "end": 15, "network": "normal",       "auth": "normal" },
+
+    { "start": 15, "end": 25, "network": "udp_flood",     "auth": "password_spray" },
+    { "start": 25, "end": 40, "network": "normal",        "auth": "normal" },
+
+    { "start": 40, "end": 50, "network": "slowloris",     "auth": "suspicious_ip" },
+    { "start": 50, "end": 60, "network": "normal",        "auth": "normal" }
+  ]
+}

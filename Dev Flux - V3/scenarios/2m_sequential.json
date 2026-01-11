@@ -1,0 +1,22 @@
+{
+  "duration_seconds": 120,
+  "phases": [
+    { "start": 0, "end": 10, "network": "normal", "auth": "normal", "device": "normal" },
+
+    { "start": 10, "end": 23, "network": "ddos", "auth": "bruteforce", "device": "system_stress" },
+    { "start": 23, "end": 30, "network": "normal", "auth": "normal", "device": "normal" },
+
+    { "start": 30, "end": 43, "network": "slowloris", "auth": "credential_stuffing", "device": "crypto_mining" },
+    { "start": 43, "end": 50, "network": "normal", "auth": "normal", "device": "normal" },
+
+    { "start": 50, "end": 63, "network": "portscan", "auth": "password_spray", "device": "memory_leak" },
+    { "start": 63, "end": 70, "network": "normal", "auth": "normal", "device": "normal" },
+
+    { "start": 70, "end": 83, "network": "exfiltration", "auth": "session_hijack", "device": "disk_flood" },
+    { "start": 83, "end": 90, "network": "normal", "auth": "normal", "device": "normal" },
+
+    { "start": 90, "end": 103, "network": "botnet", "auth": "admin_abuse", "device": "fork_bomb" },
+
+    { "start": 103, "end": 120, "network": "normal", "auth": "normal", "device": "normal" }
+  ]
+}

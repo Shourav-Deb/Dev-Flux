@@ -1,0 +1,12 @@
+{
+  "version": "1.0",
+  "description": "Default demo: 2+2 concurrent bursts within 60s.",
+  "duration_seconds": 60,
+  "phases": [
+    { "start": 0,  "end": 18, "network": "normal", "auth": "normal" },
+    { "start": 18, "end": 28, "network": "ddos",   "auth": "bruteforce" },
+    { "start": 28, "end": 44, "network": "normal", "auth": "normal" },
+    { "start": 44, "end": 54, "network": "congestion", "auth": "credential_stuffing" },
+    { "start": 54, "end": 60, "network": "normal", "auth": "normal" }
+  ]
+}
