@@ -78,7 +78,7 @@ Dev Flux allows users to:
 > Dev Flux is a **single evolving project**, developed iteratively to improve realism, usability, and research capability. Each version represents a **clear milestone**, not a separate idea.
 > The repository reflects this journey transparently and intentionally. Below is a structured overview of each version.
 
-> Some project sites may go to sleep when not in use. Just access the site and give it a minute to wake up. It will be online again shortly.
+> Some sites may go to sleep when not in use. Just access the site and give it a minute to wake up. It will be online again shortly.
 
 <details>
   <summary><h2>🔹 Version 0 – Core System Foundation</h2></summary>
