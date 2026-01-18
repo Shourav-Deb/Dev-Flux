@@ -1,9 +1,5 @@
 
 ---
-<h1 align="center">⚡ Dev Flux ⚡</h1>
-
-### A Software-Defined Virtual Sensor Framework for Edge-Centric Attack Simulation and Dataset Generation
-
 <p align="center">
   <img src="https://i.pinimg.com/originals/82/9e/ad/829ead615e5e61cd01a1cc2d2a4dd1cc.png" alt="Dev Flux" width="1200">
 </p>
@@ -215,15 +211,15 @@ Dev Flux allows users to:
   - Central testbed controller
   - Testbed execution UI
 
-  ### ⏩ User Manual
+ ### ⏩ User Manual
   1. Select & Upload a scenario JSON file. 
   2. Start the testbed.
   3. The system automatically:
-    - Switches between normal and attack phases
-    - Coordinates multiple sensors
+     - Switches between normal and attack phases
+     - Coordinates multiple sensors
   4. Monitor:
-    - Live sensor data
-    - Detected anomalies
+     - Live sensor data
+     - Detected anomalies
   5. Stop the testbed to save the session.
   6. Load past sessions for analysis.
 
@@ -269,15 +265,15 @@ Dev Flux allows users to:
     - Historical analysis
 
   ### ⏩ User Manual
-  1. Select & Upload a scenario JSON file. 
-  2. Start the testbed.
-  3. The system automatically:
-    - Switches between normal and attack phases
-    - Coordinates multiple sensors
-  4. Monitor:
-    - Live sensor data
-    - Detected anomalies
-  5. Stop the testbed to save the session.
+   1. Select & Upload a scenario JSON file. 
+   2. Start the testbed.
+   3. The system automatically:
+      - Switches between normal and attack phases
+      - Coordinates multiple sensors
+   4. Monitor:
+      - Live sensor data
+      - Detected anomalies
+   5. Stop the testbed to save the session.
 
   **Best for:** IDS testing, attack pattern evaluation, security research.
 
